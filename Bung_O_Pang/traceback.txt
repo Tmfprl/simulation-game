@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 1567, in script
+    scene bg_class_1 with Fade
+Exception: Expected transition to return a displayable, not a <partial <function Fade at 0x10da17b80> () {'old_widget': <renpy.display.layout.Fixed object at 0x1145720d0>, 'new_widget': <renpy.display.layout.Fixed object at 0x114572b20>}>
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 1567, in script
+    scene bg_class_1 with Fade
+  File "/Users/gyeongeun-park/Desktop/renpy-8.2.1-sdk/renpy/ast.py", line 1363, in execute
+    renpy.exports.with_statement(trans, paired=paired)
+  File "/Users/gyeongeun-park/Desktop/renpy-8.2.1-sdk/renpy/exports.py", line 1781, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/Users/gyeongeun-park/Desktop/renpy-8.2.1-sdk/renpy/display/core.py", line 1548, in do_with
+    return self.interact(trans_pause=True,
+  File "/Users/gyeongeun-park/Desktop/renpy-8.2.1-sdk/renpy/display/core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Users/gyeongeun-park/Desktop/renpy-8.2.1-sdk/renpy/display/core.py", line 2608, in interact_core
+    trans = instantiate_transition(None, old_root, layers_root)
+  File "/Users/gyeongeun-park/Desktop/renpy-8.2.1-sdk/renpy/display/core.py", line 2523, in instantiate_transition
+    raise Exception("Expected transition to return a displayable, not a {!r}".format(trans))
+Exception: Expected transition to return a displayable, not a <partial <function Fade at 0x10da17b80> () {'old_widget': <renpy.display.layout.Fixed object at 0x1145720d0>, 'new_widget': <renpy.display.layout.Fixed object at 0x114572b20>}>
+
+macOS-10.16-x86_64-i386-64bit x86_64
+Ren'Py 8.2.1.24030407
+Bung_O_Pang 1.0
+Mon Apr  8 21:15:10 2024

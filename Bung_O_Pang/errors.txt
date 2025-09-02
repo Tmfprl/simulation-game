@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 633: end of line expected.
+    p {b}"난 이상한 사람이 아니라 내가 이사 가기 전에, 진짜 옛날에 이 집에서 먹었던 피자 붕어빵 맛을 잊지 못해서 다시 먹으러 이사 온 거거든? 오늘 전학도 와서 첫 등교란 말야! 제발 오늘 하루를 피자 붕어빵으로 마무리 할 수 있게 해줘!"{\b} 
+                                                                                                                                              ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Mon Apr  8 21:01:25 2024
