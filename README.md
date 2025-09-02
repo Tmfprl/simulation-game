@@ -25,14 +25,7 @@
 ---
 
 ## 💻 실행 방법
-1. [Ren'Py 다운로드](https://www.renpy.org/latest.html)  
-2. 본 저장소를 클론 또는 다운로드합니다.  
-   ```bash
-   git clone https://github.com/사용자명/bung-o-pong.git
-````
 
-3. Ren'Py 실행 후 `bung-o-pong` 프로젝트를 불러옵니다.
-4. 게임을 실행합니다.
 
 ---
 
