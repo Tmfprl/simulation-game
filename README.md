@@ -1,6 +1,68 @@
 # 🎮 Bung-o-pong  
 
-시뮬레이션 게임 제작 프로젝트 **Bung-o-pong**에 오신 것을 환영합니다.  
+
+This game was developed using the **Ren'Py engine** based on Python and was created in **June 2024**.  
+
+The project was developed as an **entry for the Come2us Game Development Competition**, and some images are copyrighted by **Come2us**.  
+
+---
+
+## 📌 Project Overview
+- **Project Name**: Bung-o-pong  
+- **Genre**: Simulation Game  
+- **Development Date**: June 2024  
+- **Purpose**: Entry for Come2us Game Development Competition  
+- **Engine**: [Ren'Py](https://www.renpy.org/) (Python-based)  
+
+---
+
+## 🚀 Key Features
+- Simple and intuitive storytelling and simulation using Ren'Py  
+- Flexible and extendable due to Python-based development  
+- Lightweight execution environment with an easy-to-use interface  
+
+---
+
+## 💻 How to Run
+
+The `Bung_O_Pang-1.0-dists` folder contains compressed files of the game for each operating system.  
+Select the archive that matches your OS, extract it, and run the executable inside the extracted folder.
+
+### Windows
+1. Extract `Bung_O_Pang-1.0-pc.zip`.  
+2. Open the extracted folder and run `Bung_O_Pang.exe`.  
+
+### macOS
+1. Extract `Bung_O_Pang-1.0-mac.zip`.  
+2. Open the extracted folder and run `Bung_O_Pang.app`.  
+
+---
+
+## 🛠 Development Environment
+
+* **Language**: Python (Ren'Py-based)  
+* **IDE/Tools**: Ren'Py Launcher, Visual Studio Code  
+* **Version Control**: Git / GitHub  
+
+---
+
+## 📜 Copyright & License
+
+* Some images and resources in this project are copyrighted by **Come2us**.  
+* These resources cannot be used commercially outside the purpose of the competition entry.  
+* The source code can be freely used, but **assets such as images and sounds cannot be used without separate permission**.  
+
+---
+
+## 👥 Authors
+
+* Individuals: Gyeongeun Park and two others  
+* Email: gyeoungeun0322@gmail.com
+
+
+---
+KOREAN.ver
+
 이 게임은 **Ren'Py 엔진**을 활용하여 파이썬 기반으로 개발되었으며,  
 2024년 6월에 제작되었습니다.  
 
@@ -58,6 +120,6 @@
 
 ## 👥 제작자
 
-* 개인명: gyeongeun Park and two others
+* 개인명: 박경은 외 2인
 * 이메일: gyeoungeun0322@gmail.com 
 
